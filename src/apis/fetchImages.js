@@ -4,7 +4,7 @@ import dom from "../dom.js"
 const fetchImages = async () => {
     const searchTerm = dom.input.value;
     try {
-        const response = await fetch(`${constants.url}?query=${searchTerm}&client_id=${constants.apiKey}&orientation=landscape&per_page=24`);
+        const response = await fetch(`${constants.url}?query=${searchTerm}&client_id=${constants.apiKey}&orientation=landscape&per_page=8`);
         if (!response.ok) {
             throw new Error(`Error occurre while fetching the images`);
         }
