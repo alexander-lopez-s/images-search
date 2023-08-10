@@ -16,7 +16,7 @@ const createImageCard = (imageData) => {
     const description = document.createElement('h2');
     description.innerText = imageData.description;
     let truncatedString = description.innerText.substring(0, 25);
-    description.innerText = `${truncatedString}...`;
+    description.innerText = `${truncatedString}`;
 
 
 
@@ -30,7 +30,7 @@ const createImageCard = (imageData) => {
 
     // Create img likes
     const likes = document.createElement('h3');
-    likes.innerText = `👍 ${imageData.likes}`;
+    likes.innerText = `❤️ ${imageData.likes}`;
 
     // Append owner and likes to container
     ownerLikesContainer.append(owner, likes);

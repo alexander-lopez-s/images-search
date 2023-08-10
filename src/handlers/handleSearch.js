@@ -26,11 +26,13 @@ const handleSearch = async() => {
         closeButton.innerText = 'Close';
         closeButton.addEventListener('click', () => {
         container.classList.remove('expanded');
+        document.body.classList.remove('prevent-scroll');
         closeButton.style.visibility = "hidden"
         });
     
         image.addEventListener('click', () => {
             container.classList.add('expanded');
+            document.body.classList.add('prevent-scroll');
             container.appendChild(closeButton);
         });
     });

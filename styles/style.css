@@ -10,6 +10,10 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+.prevent-scroll {
+    overflow-y: hidden;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -105,7 +109,7 @@ h1 {
     justify-content: space-between; 
     align-items: center; 
     margin-top: 10px; 
-    color: #007bff;
+    color: #0f161d;
 }
 
 
