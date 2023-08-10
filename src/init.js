@@ -1,2 +1,9 @@
-const data = {};
-console.log('Let us build a tod list');
+import searchListener from "./listeners/searchListener.js"
+
+searchListener();
+
+
+
+
+
+

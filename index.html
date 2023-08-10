@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <title>Todo list</title>
-    </head>
-    <body>
-        <script type="module" src="./src/init.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Pictures finder</title>
+</head>
+
+<body>
+    <div class="main-container" id="container">
+        <h1>Images search</h1>
+        <input type="text" class="search-bar" id="search-bar" />
+        <button type="submit" class="search-button" id="search-button">Search</button>
+        <div class="images-container" id="gallery-container"></div>
+    </div>
+    <script type="module" src="./src/init.js"></script>
+</body>
+
 </html>
